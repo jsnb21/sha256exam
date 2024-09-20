@@ -1,4 +1,20 @@
-{% extends "base.html" %} {% block title %} Home Page {% endblock %}
+{% extends "base.html" %}
+{% block title %} Home Page {% endblock %}
+
 {% block content %}
-<p>this is the home page </p>
+  <h2>Enter Data to Hash</h2>
+  <form method="POST">
+    {% csrf_token %}
+    <label for="inputData">Enter text to hash:</label>
+    <input type="text" id="inputData" name="inputData">
+    <button type="submit">Submit</button>
+  </form>
+
+  {% if input_data %}
+    <p><strong>Original Input:</strong> {{ input_data }}</p>
+  {% endif %}
+
+  {% if hashed_value %}
+    <p><strong>Hashed Value (SHA-256):</strong> {{ hashed_value }}</p>
+  {% endif %}
 {% endblock %}
