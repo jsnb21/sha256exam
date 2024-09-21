@@ -1,9 +1,8 @@
-# Program Name: SecurePasswordGenerator # Author: John Doe # Date: 2024-09-18 # Version: 1.0 # Purpose: Generates strong, random passwords
+### Program Name: SecurePasswordGenerator 
+### Author: Baronia, James Scott N. and Binalla, Carmela 
+### Date: 2024-09-23 
+### Version: 1.0 
+### Purpose: Hash user input
 
-PRELIM EXAM - IAS LAB
-=====================
-BARONIA, JAMES SCOTT N.
----------------------
-BINALLA, CARMELA 
----------------------
+
 
