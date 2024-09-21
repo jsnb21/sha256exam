@@ -12,7 +12,7 @@
 **STORAGE:** at least 100 mb available.  
 
 **Sofware Requirements:**    
-**OS:** Windows, MacOS, and Linux.
+**OS:** Windows, MacOS, and Linux.  
 **Browser:** Chrome, Edge, Firefox etc.  
 
 **_Made with Python and Django library installed._**
