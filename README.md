@@ -33,16 +33,29 @@ in the unhashed password to avoid potential breach.
 - **Testing:** Once the security is updated, dev options should be open in the browser while the browser is open to check if the unhashed password is still visible to the viewers of the page.
 
 ## Usage Instructions
-- **Installation:** Devs need to install Python and the Django library. 
-- **Configuration:** Devs need to choose their preferrred IDE and then make sure Python and Django is compatible with their chosen software.
-- **Execution:** <br>
-To run the local server, this code must be run on CLI: <br> 
-<br>
-1. `python manage.py runserver` <br>
-_(Make sure you are in the directory folder that includes manage.py)_ <br>
+- **Installation:**  
+  Developers need to install Python and the Django library.
+  
+- **Configuration:**  
+  Developers need to choose their preferred IDE and ensure that Python and Django are compatible with their chosen software.
+  
+- **Execution:**
+  
+  To run the local server, use the following steps in the command-line interface (CLI):
+  
+  1. Go to the project directory (where `manage.py` is located).
+  
+  2. Run the following command to start the server:
+  
+     ```bash
+     python manage.py runserver
+     ```
 
-2. After that select the given url link in CLI. <br>
-_for example:(127.000.000:1111)_
+  3. After that, copy the URL provided in the CLI.  
+     Example: `127.0.0.1:8000`
+
+  4. Paste the URL in your web browser to access the application.
+
 
 
 
