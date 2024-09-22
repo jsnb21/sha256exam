@@ -38,7 +38,10 @@ in the unhashed password to avoid potential breach.
 - **Execution:** <br>
 To run the local server, this code must be run on CLI: <br> 
 <code>python manage.py runserver</code>
-__Make sure you are in the directory folder that includes manage.py_
+_(Make sure you are in the directory folder that includes manage.py)_ <br>
+
+After that select the given url link in CLI. _for example:(127.000.000:1111)_
+
 
 
 
