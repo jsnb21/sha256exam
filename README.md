@@ -37,10 +37,12 @@ in the unhashed password to avoid potential breach.
 - **Configuration:** Devs need to choose their preferrred IDE and then make sure Python and Django is compatible with their chosen software.
 - **Execution:** <br>
 To run the local server, this code must be run on CLI: <br> 
-<code>python manage.py runserver</code>
+<br>
+1. `python manage.py runserver` <br>
 _(Make sure you are in the directory folder that includes manage.py)_ <br>
 
-After that select the given url link in CLI. _for example:(127.000.000:1111)_
+2. After that select the given url link in CLI. <br>
+_for example:(127.000.000:1111)_
 
 
 
