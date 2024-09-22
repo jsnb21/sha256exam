@@ -5,16 +5,18 @@
   <h2>Enter Data to Hash</h2>
   <form method="POST">
     {% csrf_token %}
-    <label for="inputData">Enter text to hash:</label>
-    <input type="text" id="inputData" name="inputData">
-    <button type="submit">Submit</button>
+    <div class = "input-container">
+    <label for="inputData">Enter text:</label>
+    <input type="text" id="inputData" name="inputData" class="rounded-input">
+    <button class="rounded-button" type="submit">Submit</button>
+    </div>
   </form>
-
+ 
   {% if input_data %}
-    <p><strong>Original Input:</strong> {{ input_data }}</p>
+    <p><strong>Original input:</strong> {{ input_data }}</p>
+  {% endif %}
+  {% if hashed_value %}
+    <p><strong>Hashed value (SHA-256):</strong> {{ hashed_value }}</p>
   {% endif %}
 
-  {% if hashed_value %}
-    <p><strong>Hashed Value (SHA-256):</strong> {{ hashed_value }}</p>
-  {% endif %}
 {% endblock %}

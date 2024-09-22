@@ -27,11 +27,11 @@ Where it will be processed.
 
 - **Output:** The hashed value is then printed out in the same page in hexadecimal form.
 
-## Security Consideraions  
+## Security Considerations  
 - **Vulnerability Assessment:** There are risk in the code where there may be a possibility of access to unhased password. Further actions
-are needed to ensure security.  
+are needed to ensure security.
 
-- **Mitigation Strategies:** To avoid the risk mentioned, in future updates developers should look to immediately discardment of data store
+- **Mitigation Strategies:** To avoid the risk mentioned, in futusssssre updates developers should look to immediately discardment of data store
 in the unhashed password to avoid potential breach.  
 
 - **Testing:** Once the security is updated, dev options should be open in the browser while the browser is open to check if the unhashed password is still visible to the viewers of the page.  
