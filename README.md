@@ -4,16 +4,18 @@
 ### Version: _1.0_ 
 ### Purpose: _Hash the user input to show SHA-256 hashing_.
 
-## System Requirements:  
-**Minimum Requirements for Hardware:** 
-- **CPU:** AMD Athlon 300G or INTEL PENTIUM.  
-- **RAM:** at least 4GB.  
-- **GPU:** any iGPU.  
-- **STORAGE:** at least 100 mb available.  
+## System Requirements
 
-**Sofware Requirements:**    
-- **OS:** Windows, MacOS, and Linux.  
-- **Browser:** Chrome, Edge, Firefox etc.  
+### Minimum Hardware Specifications:
+- **Processor:** AMD Athlon 300G or Intel Pentium equivalent.
+- **Memory (RAM):** 4 GB minimum.
+- **Graphics:** Integrated Graphics (iGPU) or better.
+- **Storage:** Minimum 100 MB of available disk space.
+
+### Software Specifications:
+- **Operating Systems:** Compatible with Windows, macOS, and Linux.
+- **Supported Browsers:** Google Chrome, Microsoft Edge, Mozilla Firefox, or other modern web browsers.
+
 
 **_Made with Python and Django library installed._**
 
