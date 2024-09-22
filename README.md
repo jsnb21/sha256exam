@@ -21,9 +21,9 @@
 - **Input:** The user will be asked to input a string. It could be a number or a text. Which sent to the views.py in Django.
 Where it will be processed.
 
-- **Processing:**The user inputted string will be processed using python's built in hashing library (hashlib). Which will be hashed using the SHA-256 method in hexdigest which returns the encoded data in hexadecimal format. 
+- **Processing:** The user inputted string will be processed using python's built in hashing library (hashlib). Which will be hashed using the SHA-256 method in hexdigest which returns the encoded data in hexadecimal format. 
 
-- **Output:**The hashed value is then printed out in the same page in hexadecimal form.
+- **Output:** The hashed value is then printed out in the same page in hexadecimal form.
 
 ## Security Consideraions  
 - **Vulnerability Assessment**  
