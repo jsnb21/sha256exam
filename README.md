@@ -57,7 +57,9 @@ in the unhashed password to avoid potential breach.
 
 ## Error Handling
 - **Error codes:**
+  
   _**Pending or Unapplied Migrations**_
+  
   Running the program may encounter the error that indicates 18 pending database schema changes that needed to be applied to ensure they function properly.
 
 - **Recovery Procedures:**
