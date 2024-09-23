@@ -1,6 +1,6 @@
 ### Program Name: _SHA-256 Hashing_ 
 ### Author: _Baronia, James Scott N. and Binalla, Carmela_ 
-### Date: _2024-09-23_ 
+### Date: _2024-09-25_ 
 ### Version: _1.0_ 
 ### Purpose: _Hash the user input to show SHA-256 hashing_.
 
