@@ -68,8 +68,8 @@ in the unhashed password to avoid potential breach.
 ## Maintenance Log
 - **Date:** 23-09-2024
 - **Changes:**
- - **Django set and Hashing logic:** Baronia
- - **Django refinements and localhost setup:** Binalla
+  _**Django set and hashing logic:**_ Baronia, James Scott N.
+  _**Django refinements and localhost setup:**_ Binalla, Carmela C.
 - **Author:** Baronia, James Scott N., Binalla, Carmela C.
 
 
