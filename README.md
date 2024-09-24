@@ -66,8 +66,10 @@ in the unhashed password to avoid potential breach.
   You may run 'python manage.py migrate' to apply them. However, if the application is still running as expected, you can choose to ignore this message for now and apply the migrations later.
 
 ## Maintenance Log
-- **Date:**
+- **Date:** 23-09-2024
 - **Changes:**
+ - **Django set and Hashing logic:** Baronia
+ - **Django refinements and localhost setup:** Binalla
 - **Author:** Baronia, James Scott N., Binalla, Carmela C.
 
 
